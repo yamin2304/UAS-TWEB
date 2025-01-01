@@ -1,0 +1,70 @@
+
+body {
+
+    background-image: url('https://www.uin-suska.ac.id/wp-content/uploads/2024/07/LOGO-LENGKAP.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size:cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    font-size: 24px;
+    width: 50px;
+    height: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-section {
+    flex: 1;
+}
+
+.image-section img {
+    max-width: 300px;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
