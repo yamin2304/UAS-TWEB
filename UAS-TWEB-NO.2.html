@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layout Dua Kolom dengan Flexbox</title>
+  <style>
+    .container {
+      display: flex;
+    }
+
+    .content {
+      flex: 2;
+      background-color: rgb(115, 230, 7);
+      padding: 20px;
+    }
+
+    .sidebar {
+      flex: 1;
+      background-color: rgb(6, 240, 96);
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">Konten Utama</div>
+    <div class="sidebar">Sidebar</div>
+  </div>
+  <h1>Selamat datang!</h1>
+    <p>Ini adalah website pertama saya.</p>
+    <section>
+        <h2>Konten Lebih Lanjut</h2>
+    </section>
+
+<footer>
+        <p>&copy; 2024 - Semua hak cipta dilindungi undang-undang.</p>
+</footer>
+</body>
+</html>
